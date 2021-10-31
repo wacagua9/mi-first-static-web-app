@@ -1,0 +1,511 @@
+/*clases
+html { a0 b0 c0 d0 e0 f0 g0 h0 i0 j0 k0 l0 m0 n0 o0 p0 q0 r0 s0 t0 u0 v0 w0 x0 y0 z0 }
+h { a b c d e f g h i j k l m n o p q r s t u v w x y z }
+body { a1 b1 c1 d1 e1 f1 g1 h1 i1 j1 k1 l1 m1 n1 o1 p1 q1 r1 s1 t1 u1 v1 w1 x1 y1 z1 }
+*/
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.p1 {
+    color: white;
+    font-size: 25px;
+}
+
+body {
+    background-color: white;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+.a {
+    color: dodgerblue;
+    font-family: sans-serif;
+    background-color: transparent;
+    padding: auto;
+    font-size: 50px;
+}
+
+/* .b {
+color: black;
+font-family: fantasy;
+background-color: darkgray;
+padding: 10px;
+} */
+
+.b {
+    color: black;
+    font-family: fantasy;
+    background-color: darkgray;
+    height: 30px;
+    width: 100;
+}
+
+.c {
+    color: white;
+    font-family: cursive;
+    background-color: black;
+    padding: auto;
+    font-size: 20px;
+}
+
+.e {
+    color: dodgerblue;
+    font-family: sans-serif;
+    background-color: transparent;
+    padding: auto;
+    font-size: 20px;
+}
+
+.f {
+    color: dodgerblue;
+    font-family: sans-serif;
+    background-color: transparent;
+    padding: auto;
+    font-size: 15px;
+}
+
+.g {
+    background-color: hsla(9, 100%, 64%, 0.6);
+}
+
+.h {
+    background-color: hsla(9, 100%, 64%, 0.8);
+}
+
+.i {
+    background-color: hsla(9, 100%, 64%, 1);
+}
+
+.a0 {
+    width: 15px;
+    padding: 120px;
+    background-image: url(s.png);
+}
+
+.aa {
+    color: white;
+    font-family: sans-serif;
+    background-color: transparent;
+    padding: auto;
+    font-size: 30px;
+}
+
+/*
+button reset submit { a2 b2 c2 d2 e2 f2 g2 h2 i2 j2 k2 l2 m2 n2 o2 p2 q2 r2 s2 t2 u2 v2 w2 x2 y2 z2 }
+*/
+
+.a2 {
+    background-color: dodgerblue;
+    color: white;
+    border-color: white;
+    width: 55x;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: monospace;
+}
+
+.a2:hover {
+    background-color: white;
+    color: dodgerblue;
+    border-color: dodgerblue;
+    width: 70x;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 6px 6px 6px black inset;
+    font-family: monospace;
+}
+
+.b2 {
+    background-color: red;
+    color: white;
+    border-color: white;
+    width: 55x;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: fantasy;
+}
+
+.b2:hover {
+    background-color: white;
+    color: red;
+    border-color: red;
+    width: 70x;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 6px 6px 6px black inset;
+    font-family: fantasy;
+}
+
+.c2 {
+    background-color: white;
+    color: firebrick;
+    border-color: firebrick;
+    width: 55x;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: fantasy;
+}
+
+.c2:hover {
+    background-color: firebrick;
+    color: white;
+    border-color: white;
+    width: 70x;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 6px 6px 6px black inset;
+    font-family: fantasy;
+}
+
+.d2 {
+    background-color: white;
+    color: darkgreen;
+    border-color: darkgreen;
+    width: 55x;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: fantasy;
+}
+
+.d2:hover {
+    background-color: darkgreen;
+    color: white;
+    border-color: white;
+    width: 70x;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 6px 6px 6px black inset;
+    font-family: fantasy;
+}
+
+.e2 {
+    background-color: white;
+    color: darkmagenta;
+    border-color: darkmagenta;
+    width: 55x;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: fantasy;
+}
+
+.e2:hover {
+    background-color: darkmagenta;
+    color: white;
+    border-color: white;
+    width: 70x;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 6px 6px 6px black inset;
+    font-family: fantasy;
+}
+
+.f2 {
+    background-color: dodgerblue;
+    color: white;
+    border-color: white;
+    width: 180px;
+    padding: 8px;
+    border-radius: 5px;
+    box-shadow: 6px 6px 6px black inset;
+    font-family: cursive;
+    font-size: 20px;
+}
+
+.f2:hover {
+    background-color: white;
+    color: dodgerblue;
+    border-color: dodgerblue;
+    width: 180px;
+    padding: 8px;
+    border-radius: 5px;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+.g2 {
+    background-color: darkgray;
+    color: black;
+    border-color: white;
+    width: 75px;
+    padding: 16px;
+    border-radius: 5px;
+    box-shadow: 6px 6px 6px black inset;
+    font-family: fantasy;
+}
+
+.g2:hover {
+    background-image: url(001.png);
+    border-color: darkgray;
+    color: transparent;
+    width: 75px;
+    padding: 16px;
+    border-radius: 5px;
+    font-family: fantasy;
+}
+
+
+
+/* --------------------------------------------------------------------------------------------    */
+.h2 li a {
+    background-color: black;
+    color: white;
+    border-color: white;
+    width: 65px;
+    padding: 7px;
+    border-radius: 5px;
+    font-family: cursive;
+    font-size: 15px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+.h2 li a:hover {
+    background-color: white;
+    color: black;
+    border-color: black;
+    width: 65px;
+    padding: 7px;
+    border-radius: 5px;
+    font-family: cursive;
+    font-size: 15px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.h2 > li {
+    float: right;
+}
+
+.h2 li ul {
+    display: none;
+    position: absolute;
+    min-width: 100px;
+}
+
+.h2 li:hover > ul {
+    display: block;
+}
+
+/* ---------------------------------------------------------------------------------- */
+
+.i2 li a {
+    background-color: white;
+    color: black;
+    border-color: white;
+    width: 25px;
+    padding: 5px;
+    border-radius: 5px;
+    font-family: cursive;
+    font-size: 15px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+}
+
+.i2 li a:hover {
+    background-color: black;
+    color: white;
+    border-color: black;
+    width: 25px;
+    padding: 5px;
+    border-radius: 5px;
+    font-family: cursive;
+    font-size: 15px;
+    text-decoration: none;
+    text-align: center;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+}
+
+.i2 > li {
+    float: left;
+}
+
+.i2 li ul {
+    display: none;
+    position: absolute;
+    min-width: 100px;
+}
+
+.i2 li:hover > ul {
+    display: block;
+}
+
+
+
+
+
+
+
+
+/* ---------------------------------------------------------------------------------- */
+/*
+form { a4 b4 c4 d4 e4 f4 g4 h4 i4 j4 k4 l4 m4 n4 o4 p4 q4 r4 s4 t4 u4 v4 w4 x4 y4 z4 }
+div { a5 b5 c5 d5 e5 f5 g5 h5 i5 j5 k5 l5 m5 n5 o5 p5 q5 r5 s5 t5 u5 v5 w5 x5 y5 z5 }
+nav { a6 b6 c6 d6 e6 f6 g6 h6 i6 j6 k6 l6 m6 n6 o6 p6 q6 r6 s6 t6 u6 v6 w6 x6 y6 z6 }
+*/
+
+.a4 {
+    background-color: transparent;
+    border-color: white;
+    border-radius: 10px;
+    border-style: inset;
+    width: 300px;
+    padding: 35px;
+}
+
+.b4 {
+    background-image: url(001.jpg);
+    border-color: transparent;
+    border-radius: 10px;
+    border-style: inset;
+    width: auto;
+    padding: auto;
+    color: white;
+}
+
+
+/*
+table tr td th  { 
+a7 b7 c7 d7 e7 f7 g7 h7 i7 j7 k7 l7 m7 n7 o7 p7 q7 r7 s7 t7 u7 v7 w7 x7 y7 z7 
+a8 b8 c8 d8 e8 f8 g8 h8 i8 j8 k8 l8 m8 n8 o8 p8 q8 r8 s8 t8 u8 v8 w8 x8 y8 z8 
+}
+*/
+
+.a7 {
+    width: 100%;
+    padding: auto;
+    background-color: rgba(168, 84, 63, 0.432);
+    border: 1px solid;
+    border-radius: 10px;
+    border-color: white;
+}
+
+.b7 {
+    width: 100%;
+    padding: 15px;
+}
+
+.c7 {
+    width: 1200px;
+    padding: 15px;
+}
+
+.d7 {
+    width: auto;
+    padding: 20px;
+    border-color: dodgerblue;
+    border-radius: 20px;
+    border-style: double;
+    background-color: transparent;
+    text-align: center;
+}
+
+.e7 {
+    width: 400px;
+    padding: 15px;
+    border-color: transparent;
+    border-radius: 20px;
+    border-style: double;
+    background-color: transparent;
+    text-align: center;
+}
+
+.f7{
+
+    padding: 10px;
+}
+
+/*
+alert { 
+a9 b9 c9 d9 e9 f9 g9 h9 i9 j9 k9 l9 m9 n9 o9 p9 q9 r9 s9 t9 u9 v9 w9 x9 y9 z9 
+}
+*/
+
+.a9 {
+    background-color: RGBA(65, 105, 225, 15);
+    color: blue;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: fantasy;
+}
+
+.b9 {
+    background-color: RGBA(243, 247, 129, 15);
+    color: yellow;
+    width: 55x;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: fantasy;
+}
+
+.c9 {
+    background-color: RGBA(254, 46, 46, 15);
+    color: red;
+    width: 55x;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: fantasy;
+}
+
+.d9 {
+    background-color: RGBA(124, 252, 0, 15);
+    color: green;
+    width: 55x;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: fantasy;
+}
+
+/*
+campos text password email number{ 
+a11 b11 c11 d11 e11 f11 g11 h11 i11 j11 k11 l11 m11 n11 o11 p11 q11 r11 s11 t11 u11 v11 w11 x11 y11 z11
+}
+*/
+
+.a11 {
+    border-radius: 15px;
+    width: 250px;
+    background-color: darkgray;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+}
+
+.b11 {
+    border-radius: 15px;
+    width: 250px;
+    background-color: darkgray;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+}
+
+.c11 {
+    border-radius: 5px;
+    width: 250px;
+    background-color: white;
+    font-size: 15px;
+    color: black;
+    text-align: left;
+}
+
+.d11 {
+    border-radius: 5px;
+    width: 250px;
+    height: 80px;
+    background-color: white;
+    font-size: 15px;
+    color: black;
+    text-align: left;
+    resize: none;
+}
